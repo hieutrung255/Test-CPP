@@ -22,10 +22,11 @@ int getMinimumConnections(vector<vector<bool>> matrix) {
 }
 
 int main() {
-    vector<vector<bool>> matrix = {{false, true, false, true},
-                                    {true, false, true, false},
-                                    {false, true, false, true},
-                                    {true, false, true, false}};
+    vector<vector<bool>> matrix = {{false, true, false, true, false},
+                                    {true, false, true, false, true},
+                                    {false, true, false, true, false},
+                                    {true, false, true, false, true},
+                                    {false, true, false, true, false}};
     cout << getMinimumConnections(matrix) << endl;
     return 0;
 }
